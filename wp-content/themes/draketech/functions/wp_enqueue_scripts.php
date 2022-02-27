@@ -1,5 +1,7 @@
 <?php 
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 function enqueue_child_styles() {			
 	// CSS
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css');
