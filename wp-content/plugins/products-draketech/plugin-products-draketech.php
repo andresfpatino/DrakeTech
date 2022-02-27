@@ -23,3 +23,6 @@ require_once DKT_PATH."/admin/postype_products.php";
 // Rewrite Flush
 register_activation_hook(__FILE__, 'products_rewrite_flush');
 register_deactivation_hook( __FILE__, 'products_rewrite_flush' );
+
+// Metaboxes
+require_once DKT_PATH."/admin/metaboxes.php";

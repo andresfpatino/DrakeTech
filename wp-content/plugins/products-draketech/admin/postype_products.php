@@ -27,7 +27,7 @@ function products_post_type() {
 		'capability_type'    => 'post',
 		'menu_icon'          => 'dashicons-cart',
 		'menu_position'      => 5,
-		'supports'           => array('title','editor','thumbnail')
+		'supports'           => array('title', 'thumbnail')
 	);
 	register_post_type( 'products', $args );	
 }
