@@ -7,7 +7,8 @@ function enqueue_child_styles() {
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css');
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css');	
 	wp_enqueue_style( 'slick', get_stylesheet_directory_uri() . '/assets/slick/slick.css', array(), "1.8.1", 'all' );
-	wp_enqueue_style( 'slicktheme', get_stylesheet_directory_uri() . '/assets/slick/slick-theme.css', array(), "1.8.1", 'all' );
+	wp_enqueue_style( 'slicktheme', get_stylesheet_directory_uri() . '/assets/slick/slick-theme.css', array(), "1.8.1", 'all' );	   
+	wp_enqueue_style( 'Heebo', 'https://fonts.googleapis.com/css2?family=Heebo:wght@300;500;900&display=swap', array(), "1.0", 'all' );
 	wp_enqueue_style( 'theme-css', get_stylesheet_directory_uri() . '/assets/css/main.css');
 	
 	// JS
